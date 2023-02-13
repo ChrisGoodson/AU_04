@@ -212,17 +212,17 @@ class GameViewController: UIViewController {
         }
         
         @objc private func option23Tapped() {
-            let outcome = Outcome.win("You successfully defeated the dragon and saved the town.")
+            let outcome = Outcome.win("You successfully defeated the vampire lord")
             showOutcome(outcome)
         }
         
         @objc private func option24Tapped() {
-            let outcome = Outcome.lose("The dragon burned your village to the ground.")
+            let outcome = Outcome.lose("The vampire lord defeated you.")
             showOutcome(outcome)
         }
         
         @objc private func option25Tapped() {
-            let outcome = Outcome.lose("You were burned alive by the dragon.")
+            let outcome = Outcome.lose("You were defeated by the vampire lord.")
             showOutcome(outcome)
         }
         
@@ -260,7 +260,8 @@ class GameViewController: UIViewController {
     }
 
     @objc private func closeGame() {
-        dismiss(animated: true, completion: nil)
+        exit(0)
     }
+
     
 }
