@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AU_04" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="AU_04" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,9 +52,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="option1Button" destination="kGp-vF-XGZ" id="Uee-YQ-aT0"/>
-                        <outlet property="option2Button" destination="w6b-Be-cmr" id="yGR-8m-IIo"/>
-                        <outlet property="questionLabel" destination="COx-Pc-oYo" id="V6S-iP-5Yx"/>
+                        <outlet property="option1Button" destination="kGp-vF-XGZ" id="DcM-1P-mFM"/>
+                        <outlet property="option2Button" destination="w6b-Be-cmr" id="sYy-Ak-GMb"/>
+                        <outlet property="questionLabel" destination="COx-Pc-oYo" id="gnl-wc-0js"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
